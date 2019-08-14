@@ -12,12 +12,14 @@
         <module name="e3-common-service" />
         <module name="e3-common-web1" />
         <module name="e3-comon-pojo" />
-        <module name="generator" />
+        <module name="e3-content-interface" />
+        <module name="e3-content-service" />
+        <module name="e3-portal-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="e3-common-web" target="1.7" />
-      <module name="generatorSqlmapCustom" target="1.7" />
+    <bytecodeTargetLevel target="7">
+      <module name="generator" target="1.7" />
+      <module name="pagehelper" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

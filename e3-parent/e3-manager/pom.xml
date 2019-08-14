@@ -17,7 +17,7 @@
         <module>d3-common-dao</module>
         <module>e3-common-interface</module>
         <module>e3-common-service</module>
-        <module>generator</module>
+
     </modules>
 
     <dependencies>
