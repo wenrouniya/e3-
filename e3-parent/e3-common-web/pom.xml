@@ -12,10 +12,13 @@
 
     <groupId>cn.e3mall</groupId>
     <artifactId>e3-common-web</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <name>e3-common-web Maven Webapp</name>
     <url>http://www.example.com</url>
+    <modules>
+        <module>e3-item-web</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -115,6 +118,12 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cn.e3mall</groupId>
+            <artifactId>e3-seacher-interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
 
     </dependencies>
 

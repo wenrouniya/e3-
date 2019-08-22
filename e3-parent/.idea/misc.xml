@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.stereotype.Controller" />
+      <item index="1" class="java.lang.String" itemvalue="org.springframework.stereotype.Service" />
+    </list>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-common-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-content/e3-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-manager/e3-common-service" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-manager/e3-common-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-protal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-search/e3-seacher-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-sso/e3-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-parent/e3-ssoo-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,10 +28,13 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/e3-common-web/e3-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-common-web/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/generator/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/generatorSqlmapCustom/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-parent/e3-ssoo-web/pom.xml" />
       </set>
     </option>
   </component>

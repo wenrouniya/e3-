@@ -11,6 +11,11 @@
         <module>e3-common-web</module>
         <module>e3-protal-web</module>
         <module>e3-content</module>
+        <module>e3-search</module>
+        <module>e3-search-web</module>
+        <module>e3-item-web</module>
+        <module>e3-sso</module>
+        <module>e3-sso-web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

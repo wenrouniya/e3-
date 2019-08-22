@@ -11,6 +11,7 @@
 
     <groupId>cn.e3mall</groupId>
     <artifactId>e3-common-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <dependencies>
@@ -93,6 +94,29 @@
             <artifactId>javassist</artifactId>
             <version>3.20.0-GA</version><!-- 最新版即可 -->
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.e3mall</groupId>
+            <artifactId>e3-seacher-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>cn.e3mall</groupId>-->
+            <!--<artifactId>e3-search</artifactId>-->
+            <!--<version>0.0.1-SNAPSHOT</version>-->
+        <!--</dependency>-->
 
     </dependencies>
     <build>

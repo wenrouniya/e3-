@@ -16,6 +16,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+        <dependency>
             <groupId>cn.e3mall</groupId>
             <artifactId>e3-comon-pojo</artifactId>
             <version>0.0.1-SNAPSHOT</version>

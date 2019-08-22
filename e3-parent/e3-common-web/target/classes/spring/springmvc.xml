@@ -30,9 +30,11 @@
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="112.74.166.230:2181"/>
-    <dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" />
-    <dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" />
-    <dubbo:reference interface="cn.e3mall.content.service.ContentCategoryService" id="contentCategoryService" />
+    <dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" timeout="3000000"   />
+    <dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" timeout="3000000"  />
+    <dubbo:reference interface="cn.e3mall.content.service.ContentCategoryService" id="contentCategoryService" timeout="3000000"  />
+    <dubbo:reference interface="cn.e3mall.content.service.ContentService" id="contentService" timeout="3000000"  />
+    <dubbo:reference interface="cn.e3mall.search.service.SearchItemService" id="searchItemService" timeout="3000000"  />
 
     <!-- 定义文件上传解析器 -->
     <bean id="multipartResolver"

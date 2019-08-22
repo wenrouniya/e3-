@@ -12,7 +12,7 @@ public class TbUser  implements Serializable {
 
     private String phone;
 
-    private String email;
+   private String email;
 
     private Date created;
 
@@ -55,7 +55,7 @@ public class TbUser  implements Serializable {
     }
 
     public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
+        this.email = email;
     }
 
     public Date getCreated() {

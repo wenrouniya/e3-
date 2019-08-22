@@ -129,7 +129,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.e3mall.pojo.TbContent" >
-    insert into tb_content (id, category_id, title, 
+    <selectKey keyProperty="id" resultType="long" order="AFTER">
+      select  last_insert_id()
+    </selectKey>
+    insert into tb_content (id, category_id, title,
       sub_title, title_desc, url, 
       pic, pic2, created, 
       updated, content)
@@ -139,6 +142,9 @@
       #{updated,jdbcType=TIMESTAMP}, #{content,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="cn.e3mall.pojo.TbContent" >
+    <selectKey keyProperty="id" resultType="long" order="AFTER">
+      select  last_insert_id()
+    </selectKey>
     insert into tb_content
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >

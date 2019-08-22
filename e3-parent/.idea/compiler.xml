@@ -10,14 +10,23 @@
         <module name="e3-common-dao" />
         <module name="e3-common-interface" />
         <module name="e3-common-service" />
-        <module name="e3-common-web1" />
         <module name="e3-comon-pojo" />
         <module name="e3-content-interface" />
         <module name="e3-content-service" />
+        <module name="e3-item-web" />
+        <module name="e3-item-web (1)" />
         <module name="e3-portal-web" />
+        <module name="e3-seacher-interface" />
+        <module name="e3-seacher-service" />
+        <module name="e3-search-web" />
+        <module name="e3-sso-interface" />
+        <module name="e3-sso-service" />
+        <module name="e3-sso-web" />
+        <module name="e3ssoservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="7">
+      <module name="e3-sso-service" target="1.7" />
       <module name="generator" target="1.7" />
       <module name="pagehelper" target="1.7" />
     </bytecodeTargetLevel>
